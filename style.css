@@ -1,0 +1,21 @@
+.biru{
+    color:blue;
+}
+th{
+    color:pink;
+}
+table{
+    /* jarak antara elemen dengan elemen lain */
+    margin:20px;
+    
+    
+}
+th{
+    /* jarak antara elemen dengan elemen itu sendiri */
+    padding-top:25px;
+    padding-left:5px;
+}
+
+td{
+    padding:5px;
+}

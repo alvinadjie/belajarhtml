@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- External Css -->
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <!-- internal css -->
     <style>
         .tebel{
          font-weight:bold; 
@@ -16,44 +19,47 @@
     </style>
 </head>
 <body>
-    <!-- Form -->
-    <form action="" method="get">
-        <!-- post -> ngirim data lewat belakang-->
-        <!-- get -> ngirim data lewat url -->
-        <p>Nama</p>
-        <input type="text" name="nama">
-        <p>Nomor HP</p>
-        <input type="text" name="nomor_hp">
-        <p>Usia</p>
-        <input type="text" name="usia">
-        <br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Pria</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Wanita</label><br>
-        <input type="submit" value="input!">
-    </form>
-
-    <!-- Table -->
-
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Nama</th>
-                <th colspan="2">Nomor HP</th>
-                <th>Usia</th>
-                <th>Jenis Kelamin</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="tebel">Alvin</td>
-                <td id="merah">08884004211</td>
-                <td>Indonesia</td>
-                <td class="tebel">21</td>
-                <td>Pria</td>
-            </tr>
-        </tbody>
-    </table>
+    <section>
+            <!-- Form -->
+            <form action="" method="get">
+                <!-- post -> ngirim data lewat belakang-->
+                <!-- get -> ngirim data lewat url -->
+                <p>Nama</p>
+                <input type="text" name="nama">
+                <p>Nomor HP</p>
+                <input type="text" name="nomor_hp">
+                <p>Usia</p>
+                <input type="text" name="usia">
+                <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Pria</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Wanita</label><br>
+                <input type="submit" value="input!">
+            </form>
+        
+            <!-- Table -->
+        
+            <table border="1">
+                <thead>
+                    <tr>
+                        <!-- inline css -->
+                        <th style="color:green">Nama</th>
+                        <th colspan="2">Nomor HP</th>
+                        <th class="biru">Usia</th>
+                        <th>Jenis Kelamin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tebel">Alvin</td>
+                        <td id="merah">08884004211</td>
+                        <td>Indonesia</td>
+                        <td class="tebel">21</td>
+                        <td>Pria</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
 </body>
 </html>
